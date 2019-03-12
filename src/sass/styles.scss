@@ -1,3 +1,21 @@
 body {
   background-color: #7FDBFF;
 }
+.board {
+  display: grid;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  grid-template-columns: repeat(9, 125px);
+  grid-template-rows:  300px;
+  border: 2px solid black;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+input {
+  width: 100px;
+}
